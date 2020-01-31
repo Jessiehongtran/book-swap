@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 0 100px;
+	transition: 0.2s ease-in;
+	margin-bottom: 40px;
+    background: #ebaf4c;
+
+    .nav {
+        display: flex;
+        width: 50%;
+        align-items: center;
+
+        input {
+            margin-right: 20px;
+            width: 70%;
+            height: 30px;
+        }
+    }
+}
