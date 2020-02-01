@@ -26,5 +26,14 @@ export const books = [
 		image:
             'https://images-na.ssl-images-amazon.com/images/I/61uUPXbhMxL._SX397_BO1,204,203,200_.jpg',
         posted: "01/26/2020"
+	},
+	{
+		id: 5,
+		title: 'The art of loving',
+		image:
+            'https://images-na.ssl-images-amazon.com/images/I/41yuw5R6rEL._SX329_BO1,204,203,200_.jpg',
+        posted: "01/26/2020"
 	}
+
+	
 ]

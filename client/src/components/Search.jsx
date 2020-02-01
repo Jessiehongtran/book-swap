@@ -9,7 +9,8 @@ const Search = props => {
         const searchVal = e.target.value
         let found = []
         for (let i = 0; i<books.length; i++){
-            if (books[i].title.toLowerCase() == searchVal.toLowerCase()){
+            if (books[i].title.toLowerCase().includes(searchVal.toLowerCase())){
+                console.log('fireee')
                 found.push(books[i])
             }
         }
