@@ -1,0 +1,15 @@
+.post-book{
+    text-align: center;
+    width: 50%;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 25%;
+        
+        input {
+            margin: 10px;
+        }
+    }
+}
