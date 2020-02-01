@@ -33,6 +33,41 @@ export const books = [
 		image:
             'https://images-na.ssl-images-amazon.com/images/I/41yuw5R6rEL._SX329_BO1,204,203,200_.jpg',
         posted: "01/26/2020"
+	},
+	{
+		id: 6,
+		title: 'Losing My Virginity',
+		image:
+			'https://images-na.ssl-images-amazon.com/images/I/51efEpr6uzL._SX322_BO1,204,203,200_.jpg',
+		posted: "01/23/2020"
+	},
+	{
+		id: 7,
+		title: 'Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future',
+		image:
+			'https://images-na.ssl-images-amazon.com/images/I/5112YFsXIJL._SX330_BO1,204,203,200_.jpg',
+		posted: "01/22/2020"
+	},
+	{
+		id: 8,
+		title: 'The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph',
+		image:
+			'https://images-na.ssl-images-amazon.com/images/I/41LyQkMMRNL._SX342_.jpg',
+		posted: "01/23/2020"
+	},
+	{
+		id: 9,
+		title: 'Becoming',
+		image:
+			'https://images-na.ssl-images-amazon.com/images/I/414JfiBCutL._SX327_BO1,204,203,200_.jpg',
+		posted: "01/23/2020"
+	},
+	{
+		id: 10,
+		title: 'The 4-Hour Chef: The Simple Path to Cooking Like a Pro, Learning Anything, and Living the Good Life',
+		image:
+			'https://images-na.ssl-images-amazon.com/images/I/51qLyyJw4EL._SX420_BO1,204,203,200_.jpg',
+		posted: "01/23/2020"
 	}
 
 	
