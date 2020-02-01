@@ -1,5 +1,4 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 import '../styles/Navigation.scss';
 import Search from './Search';
 
@@ -12,7 +11,12 @@ const Navigation = props => {
                 <Search 
                     setSearchFilter = {props.setSearchFilter}
                 />
-                <NavLink to='/' className="post">Post book</NavLink>
+                <button 
+                    className="post"
+                    onClick={()=> {props.history.push('/post')}}
+                >
+                    Post book
+                </button>
             </div>
         </div>
     )

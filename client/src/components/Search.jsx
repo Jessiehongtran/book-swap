@@ -9,7 +9,7 @@ const Search = props => {
         const searchVal = e.target.value
         let found = []
         for (let i = 0; i<books.length; i++){
-            if (books[i].title.toLowerCase().includes(searchVal.toLowerCase())){
+            if (books[i].title.toLowerCase().includes(searchVal.toLowerCase()) || books[i].author.toLowerCase().includes(searchVal.toLowerCase())){
                 console.log('fireee')
                 found.push(books[i])
             }
@@ -22,7 +22,7 @@ const Search = props => {
         <div className="search">
             <input 
                 type="text" 
-                placeholder="Search for books posted"
+                placeholder="Search by book name or author"
                 onChange={handleChange}
             />
         </div>
