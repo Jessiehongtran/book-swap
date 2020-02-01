@@ -78,6 +78,14 @@ export const books = [
 		image:
 			'https://images-na.ssl-images-amazon.com/images/I/51qLyyJw4EL._SX420_BO1,204,203,200_.jpg',
 		posted: "01/23/2020"
+	},
+	{
+		id: 11,
+		title: 'Never split the difference',
+		author: 'Chris Voss',
+		image:
+			'https://images-na.ssl-images-amazon.com/images/I/51TGqJ-rKOL._SX328_BO1,204,203,200_.jpg',
+		posted: "01/23/2020"
 	}
 
 	
