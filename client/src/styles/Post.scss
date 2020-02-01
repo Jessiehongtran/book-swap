@@ -5,11 +5,19 @@
     form {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 50%;
         margin: 25%;
         
         input {
             margin: 10px;
+            width: 100%;
+            height: 30px;
+        };
+
+        .post-btn {
+            width: 20%;
+            background-color: yellow;
         }
     }
 }

@@ -38,7 +38,7 @@ const Post = props => {
                     name="imageUrl"
                     onChange={handleChange} 
                 />
-                <button type="submit">Post</button>
+                <button type="submit" className="post-btn">Post</button>
             </form>
         </div>
     )
