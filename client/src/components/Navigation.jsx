@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import '../styles/Navigation.scss'
+import '../styles/Navigation.scss';
+import Search from './Search';
 
 const Navigation = props => {
 
@@ -8,8 +9,10 @@ const Navigation = props => {
         <div className="navigation">
             <h1>BookSwap</h1>
             <div className="nav">
-                <input type="text" placeholder="Search for books posted"/>
-                <NavLink to='/'>Post book</NavLink>
+                <Search 
+                    setSearchFilter = {props.setSearchFilter}
+                />
+                <NavLink to='/' className="post">Post book</NavLink>
             </div>
         </div>
     )

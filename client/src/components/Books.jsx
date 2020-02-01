@@ -1,12 +1,21 @@
 import React from 'react';
 import {books} from '../data/bookData';
 import EachBook from './EachBook';
+import '../styles/Books.scss';
 
-const Books = () => {
+const Books = props => {
+
+    let booksToShown = []
+
+    if (props.searchFilter.length>0){
+        booksToShown = props.searchFilter
+    } else {
+        booksToShown = books
+    }
 
     return (
-        <div>
-            {books.map(book => 
+        <div className="book-list">
+            {booksToShown.map(book => 
                 <EachBook book={book}/>)}
         </div>
     )

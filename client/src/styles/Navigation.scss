@@ -9,13 +9,11 @@
 
     .nav {
         display: flex;
-        width: 50%;
         align-items: center;
+        justify-content: space-around;
 
-        input {
-            margin-right: 20px;
-            width: 70%;
-            height: 30px;
+        .post {
+            margin-left: 50px;
         }
     }
 }
