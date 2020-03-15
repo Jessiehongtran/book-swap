@@ -16,7 +16,10 @@ const Books = props => {
     return (
         <div className="book-list">
             {booksToShown.map(book => 
-                <EachBook book={book}/>)}
+                <EachBook 
+                    book={book}
+                    history={props.history}
+                />)}
         </div>
     )
 }

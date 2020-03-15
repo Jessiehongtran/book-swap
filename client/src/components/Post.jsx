@@ -38,7 +38,16 @@ const Post = props => {
                     name="imageUrl"
                     onChange={handleChange} 
                 />
-                <button type="submit" className="post-btn">Post</button>
+                <button 
+                    type="submit" 
+                    className="post-btn"
+                    onClick={() => {localStorage.getItem('token')? 
+                                        props.history.push('/signin')
+                                        : props.history.push('/signup')
+                            }}
+                >
+                Post
+                </button>
             </form>
         </div>
     )
