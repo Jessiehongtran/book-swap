@@ -5,6 +5,7 @@ const Post = props => {
     const [bookPost, setBookPost] = useState({})
 
     const handleChange = e => {
+        //get data of all books, if title and author match one, show it on the left and let user click "Register to swap"
         setBookPost({...bookPost, [e.target.name]: e.target.value})
         props.setPostUpdate({...bookPost, [e.target.name]: e.target.value})     
     }
@@ -46,7 +47,7 @@ const Post = props => {
                                         : props.history.push('/signup')
                             }}
                 >
-                Post
+                Register to swap
                 </button>
             </form>
         </div>

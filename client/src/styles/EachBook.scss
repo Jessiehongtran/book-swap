@@ -1,5 +1,16 @@
 .each-book {
     width: 20%;
+    margin: 20px;
+
+    @media(max-width: 1000px){
+        width: 40%;
+       
+    }
+
+    @media(max-width: 500px){
+        width: 50%;
+       
+    }
 
    img {
        width: 200px;
